@@ -26,7 +26,7 @@ def count_fingers(lst):
 
     return cnt 
 
-cap = cv2.VideoCapture('/dev/video2') 
+cap = cv2.VideoCapture('/dev/video1') 
 
 drawing = mp.solutions.drawing_utils
 hands = mp.solutions.hands
